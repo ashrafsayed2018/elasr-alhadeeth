@@ -20,7 +20,7 @@ function Category({props}:PropsType) {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 space-y-8 gap-x-3 mt-8">
             {props.images?.map((image,index) => {
-                return <div  key={image} className="h-[400px] bg-red-400">
+                return <div  key={image} className="h-[400px] bg-indigo-500">
                     <Image 
                       placeholder="blur"
                       blurDataURL={image}
