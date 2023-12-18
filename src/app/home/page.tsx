@@ -15,8 +15,10 @@ export default function Home() {
   return (
      <>
       <div className="max-w-7xl mx-auto overflow-x-hidden mb-10">
+       <div className="bg-white w-full fixed top-0 right left-0 z-50">
        <TopHeader/>
        <Navbar/>
+       </div>
        <Hero/>
        <Services/>
        {NavList.map(nav => {

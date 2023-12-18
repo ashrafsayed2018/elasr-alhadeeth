@@ -13,7 +13,7 @@ function Footer() {
             {/* logo and company name */}
 
             <div className="logo w-full px-8">
-                <LogoImage/>
+                <LogoImage size={100}/>
                      <p className='text-white mt-8 text-xl text-right px-8'>ترميم في الدمام
                             ترميم تشققات تعشيش شروخ تصدعات – بأحدث مواد البناء
                             أهمية عزل اسطح ضد الحرارة والماء الدمام

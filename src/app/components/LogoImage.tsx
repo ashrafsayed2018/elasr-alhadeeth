@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import React from 'react'
 
-function LogoImage() {
+type PropsType = {
+
+  size:number 
+}
+function LogoImage({size}:PropsType) {
   return (
     <Image 
       src="/logo.png"
       alt=""
-      width={100}
-      height={100}
+      width={size}
+      height={size}
       className='w-40 h-24'/>
   )
 }
