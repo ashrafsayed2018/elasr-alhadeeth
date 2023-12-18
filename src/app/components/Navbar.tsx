@@ -5,7 +5,7 @@ function Navbar() {
   return (
 
     <header>
-        <nav className="bg-white sm:w-full  border-b border-gray-200 dark:border-gray-600 ">
+        <nav className="bg-white sm:w-full  border-t border-gray-200 pb-2 mt-4 ">
           <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
          
             <input type="checkbox" id="check" />

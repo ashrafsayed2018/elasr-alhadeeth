@@ -9,7 +9,7 @@ import LogoImage from './LogoImage'
 
 function TopHeader() {
   return (
-    <div className='md:flex items-center justify-center'>
+    <div className='md:flex items-center justify-center h-auto pb-2  '>
         {/* logo */}
         <div className="logo">
          <LogoImage size={40}/>
@@ -23,7 +23,7 @@ function TopHeader() {
                             <MobileSvg/>
                         </div>
                         <div >
-                           <p >
+                           <p className='font-semibold'>
                              {ContactInfo.mobileNumber}
                            </p>
                             <p >اتصل بنا</p>
@@ -37,7 +37,7 @@ function TopHeader() {
                         </div>
                         
                         <div >
-                           <p >
+                           <p className='font-semibold'>
                              {ContactInfo.workingTime}
                            </p>
                             <p >اوقات العمل</p>
@@ -49,7 +49,7 @@ function TopHeader() {
                         </div>
                         
                          <div >
-                            <p >
+                            <p className='font-semibold'>
                             {ContactInfo.address.city} 
                             &nbsp; &nbsp;    
                             {ContactInfo.address.country}
