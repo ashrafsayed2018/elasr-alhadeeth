@@ -10,7 +10,7 @@ export const ContactInfo = {
     workingTime: "8:00 إلى 11:00",
     "address": {
         country:"الممكلة العربية السعودية",
-        city: "الرياض"
+        city: "الدمام"
     }
 }
 
