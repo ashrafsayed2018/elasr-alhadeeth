@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 function FixedContact() {
   return (
-	<div className='fixed left-8 bottom-8 z-50 bg-green-600 shadow-lg'>
+	<div className='fixed left-4 bottom-4 z-50  shadow-lg'>
      
      <ul>
         {FixedContactList.map(contact => {
-          return <li key={contact.name} className='bg-white w-10 h-10 flex justify-center items-center'>
+          return <li key={contact.name} className='bg-white w-14 h-14 flex justify-center items-center  rounded-full mb-2 shadow-xl shadow-gray-800'>
             <Link href={contact.link}>
             {contact.icon}
             </Link>
