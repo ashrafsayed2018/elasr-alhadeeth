@@ -3,6 +3,7 @@ import React from 'react'
 import { FixedContactList, ServicesObject } from '../constants'
 import Link from 'next/link'
 import ContactIcon from './ContactIcon'
+import LogoImage from './LogoImage'
 
 function Footer() {
   return (
@@ -12,12 +13,7 @@ function Footer() {
             {/* logo and company name */}
 
             <div className="logo w-full px-8">
-                <Image 
-                    src="/logo.png" 
-                    alt="bg-indigo-500 "
-                    width={100}
-                    height={100} 
-                    className='w-25 mx-auto block'/>
+                <LogoImage/>
                      <p className='text-white mt-8 text-xl text-right px-8'>ترميم في الدمام
                             ترميم تشققات تعشيش شروخ تصدعات – بأحدث مواد البناء
                             أهمية عزل اسطح ضد الحرارة والماء الدمام

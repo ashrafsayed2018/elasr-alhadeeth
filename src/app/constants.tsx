@@ -311,7 +311,7 @@ export const NavList = [
   export const FixedContactList = [
       {
         name:"phone",
-        icon:<FontAwesomeIcon icon={faPhone} size='lg' color='blue'/>,
+        icon:<FontAwesomeIcon icon={faPhone} size='2x' color='blue'/>,
         link: `tel:${ContactInfo.mobileNumber}`
       },
       {

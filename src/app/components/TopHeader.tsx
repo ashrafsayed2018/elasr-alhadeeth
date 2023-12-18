@@ -4,6 +4,7 @@ import {ContactInfo} from "../constants"
 import MobileSvg from './MobileSvg'
 import Clock from './Clock'
 import Location from './Location'
+import LogoImage from './LogoImage'
 
 
 function TopHeader() {
@@ -11,14 +12,7 @@ function TopHeader() {
     <div className='hidden md:flex items-center justify-between'>
         {/* logo */}
         <div className="logo">
-            <Image
-             priority={true}
-             src="/logo.png"
-             alt="logo"
-             width={100}
-             height={100}
-             className='w-auto h-auto'
-             />
+         <LogoImage/>
         </div>
         {/* top contact info */}
         <div className="contact flex items-center gap-5">

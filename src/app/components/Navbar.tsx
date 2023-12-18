@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { NavList } from "../constants"
 import Image from "next/image"
+import LogoImage from "./LogoImage"
 function Navbar() {
   return (
 
@@ -9,11 +10,7 @@ function Navbar() {
           <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
             <a className="logo" href="#">
               <h3 className="font-bold text-2xl">
-                 <Image 
-                    src="/logo.png" 
-                    alt="logo"
-                    width={100}
-                    height={100} />
+                 <LogoImage/>
               </h3>
             </a>
             <input type="checkbox" id="check" />

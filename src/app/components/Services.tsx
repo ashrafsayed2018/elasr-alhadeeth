@@ -18,7 +18,6 @@ function Services() {
     <div className="w-full mx-auto mt-10">
         <Slider {...settings} >
         {ServicesObject.map(service => {
-            console.log(service.image)
             return <div 
               key={service.label}
               className="bg-white text-black h-[500px] rounded-xl mx-3"
