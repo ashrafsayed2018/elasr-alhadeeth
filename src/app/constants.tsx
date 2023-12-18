@@ -311,33 +311,33 @@ export const NavList = [
   export const FixedContactList = [
       {
         name:"phone",
-        icon:<FontAwesomeIcon icon={faPhone} color='blue'/>,
+        icon:<FontAwesomeIcon icon={faPhone} size='lg' color='blue'/>,
         link: `tel:${ContactInfo.mobileNumber}`
       },
       {
         name:"whatsapp",
-        icon: <FontAwesomeIcon icon={faWhatsapp} color='green'/>,
+        icon: <FontAwesomeIcon size="lg" icon={faWhatsapp} color='green'/>,
         link: "https://api.whatsapp.com/message/SINYIKMZEU35A1?autoload=1&app_absent=0"
       },
       {
         name:"instagram",
-        icon:<FontAwesomeIcon icon={faInstagram} color='purple'/>,
+        icon:<FontAwesomeIcon size="lg"icon={faInstagram} color='purple'/>,
         link:"https://instagram.com/hh0507923952?igshid=ZGUzMzM3NWJiOQ==ا"
       },
       {
         name:"snapshat",
-        icon:<FontAwesomeIcon icon={faSnapchat} color='#8B8000'/>,
+        icon:<FontAwesomeIcon size="lg"icon={faSnapchat} color='#8B8000'/>,
         link:"https://www.snapchat.com/add/s_dykwrtfwmtr20?share_id=g8SI0-od-7Q&locale=ar-AA"
       },
       
       {
         name:"twitter",
-        icon:<FontAwesomeIcon icon={faTwitter} color='#1DA1F2'/>,
+        icon:<FontAwesomeIcon size="lg"icon={faTwitter} color='#1DA1F2'/>,
         link:"https://twitter.com/SAldhran49144?t=q0LsJWVHFDyI8eYfuPOF3A&s=09"
       },
       {
         name:"tiktok",
-        icon:<FontAwesomeIcon icon={faTiktok}/>,
+        icon:<FontAwesomeIcon size="lg"icon={faTiktok}/>,
         link:"https://www.tiktok.com/@haithammoh0507923952?_t=8fIfeMtoj72&_r=1"
       },
      
