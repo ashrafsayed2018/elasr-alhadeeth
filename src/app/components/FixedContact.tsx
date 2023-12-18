@@ -8,7 +8,7 @@ function FixedContact() {
      
      <ul>
         {FixedContactList.map(contact => {
-          return <li key={contact.name} className='bg-white w-14 h-14 flex justify-center items-center  rounded-full mb-2 shadow-xl shadow-gray-800'>
+          return <li key={contact.name} className='bg-white w-14 h-14 flex justify-center items-center  rounded-full mb-2 shadow-sm shadow-gray-800'>
             <Link href={contact.link}>
             {contact.icon}
             </Link>
