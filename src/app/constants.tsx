@@ -316,23 +316,23 @@ export const NavList = [
       },
       {
         name:"whatsapp",
-        icon: <FontAwesomeIcon size="lg" icon={faWhatsapp} color='green'/>,
+        icon: <FontAwesomeIcon size="3x" icon={faWhatsapp} color='green'/>,
         link: "https://api.whatsapp.com/message/SINYIKMZEU35A1?autoload=1&app_absent=0"
       },
       {
         name:"instagram",
-        icon:<FontAwesomeIcon size="lg"icon={faInstagram} color='purple'/>,
+        icon:<FontAwesomeIcon size="3x"icon={faInstagram} color='purple'/>,
         link:"https://instagram.com/hh0507923952?igshid=ZGUzMzM3NWJiOQ==ا"
       },
       {
         name:"snapshat",
-        icon:<FontAwesomeIcon size="lg"icon={faSnapchat} color='#8B8000'/>,
+        icon:<FontAwesomeIcon size="3x"icon={faSnapchat} color='#8B8000'/>,
         link:"https://www.snapchat.com/add/s_dykwrtfwmtr20?share_id=g8SI0-od-7Q&locale=ar-AA"
       },
       
       {
         name:"twitter",
-        icon:<FontAwesomeIcon size="lg"icon={faTwitter} color='#1DA1F2'/>,
+        icon:<FontAwesomeIcon size="3x"icon={faTwitter} color='#1DA1F2'/>,
         link:"https://twitter.com/SAldhran49144?t=q0LsJWVHFDyI8eYfuPOF3A&s=09"
       },
       {
