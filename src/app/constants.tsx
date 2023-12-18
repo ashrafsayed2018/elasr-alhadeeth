@@ -337,7 +337,7 @@ export const NavList = [
       },
       {
         name:"tiktok",
-        icon:<FontAwesomeIcon size="2x"icon={faTiktok}/>,
+        icon:<FontAwesomeIcon size="3x"icon={faTiktok}/>,
         link:"https://www.tiktok.com/@haithammoh0507923952?_t=8fIfeMtoj72&_r=1"
       },
      
