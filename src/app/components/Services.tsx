@@ -1,4 +1,4 @@
-"use client"
+
 import Image from "next/image"
 import { ServicesObject } from "../constants"
 import Link from "next/link"
