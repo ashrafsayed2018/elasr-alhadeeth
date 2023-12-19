@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import { FixedContactList, NavList } from '../constants'
 import Link from 'next/link'
@@ -25,9 +24,9 @@ function Footer() {
             <div className="services flex flex-col items-center justify-center text-white px-8">
                 <h1 className='my-8 font-bold text-3xl'>خدماتنا </h1>
                  <ul className='text-right '>
-                
+                 
                        {NavList.map(nav => {
-                      return  <li key={nav.id} className="mr-6">
+                      return  <li key={nav.id} className='p-2'>
                       <Link  href={nav.id == "1"? '/home' : `/categories/${nav.id}`}>{nav.label}</Link>
                       </li>
                   })}
