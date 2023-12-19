@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { NavList } from "../constants"
-import Image from "next/image"
 function Navbar() {
   return (
 

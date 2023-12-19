@@ -23,7 +23,7 @@ function TopHeader() {
                             <MobileSvg/>
                         </div>
                         <div >
-                           <p className='font-semibold'>
+                           <p className='font-semibold text-indigo-500'>
                              {ContactInfo.mobileNumber}
                            </p>
                             <p >اتصل بنا</p>
@@ -31,7 +31,7 @@ function TopHeader() {
                         
                         
                     </ContactIcon>
-                    <ContactIcon>
+                    {/* <ContactIcon>
                         <div className="w-12 flex items-center justify-center">
                         <Clock/>
                         </div>
@@ -42,19 +42,18 @@ function TopHeader() {
                            </p>
                             <p >اوقات العمل</p>
                         </div>
-                    </ContactIcon>
+                    </ContactIcon> */}
                     <ContactIcon>
                         <div className="w-12 flex items-center justify-center">
                             <Location/>
                         </div>
                         
                          <div >
-                            <p className='font-semibold'>
+                            <p className='font-semibold text-indigo-500'>
                             {ContactInfo.address.city} 
-                            &nbsp; &nbsp;    
-                            {ContactInfo.address.country}
+                           
                             </p>
-                            <p >العنوان</p>
+                            <p className='font-normal '>العنوان</p>
                         </div>
                     </ContactIcon>
                     

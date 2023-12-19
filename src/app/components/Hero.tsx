@@ -3,7 +3,7 @@ import { ContactInfo } from "../constants"
 
 function Hero() {
   return (
-    <div className="mt-10 text-center flex flex-col gap-8">
+    <div className="mt-96 text-center flex flex-col gap-8 h-auto">
         <h1 className="text-blue-900 font-bold text-xl">العصر الحديث للمقاولات</h1>
         <p className="text-[#800000] font-bold text-xl">مقاول ترميم بناء ملاحق صباغ </p>
         <p className="text-[#993366] font-bold text-xl">ترميم مباني بناء ملاحق اصباغ اصباغ خارجيه\ اصباغ داخليه \ ازالة اصباغ قديمة \ اعمال بروفايل \ كسر ركام</p>
