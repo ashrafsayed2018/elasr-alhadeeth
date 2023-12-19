@@ -16,8 +16,8 @@ function TopHeader() {
         </div>
         {/* top contact info */}
         <div className="contact flex items-center gap-5">
-            <div className="mobile">
-                <div className="flex items-center gap-5 ">
+            <div className="mobile w-full">
+                <div className="flex items-center gap-5 justify-around ">
                     <ContactIcon>
                         <div className="w-12 flex items-center justify-center">
                             <MobileSvg/>
